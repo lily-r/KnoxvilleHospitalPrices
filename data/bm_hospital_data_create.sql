@@ -1,0 +1,14 @@
+CREATE TABLE "BM_HOSPITAL_DATA" (
+  "UUID" INT,
+  "ITEM_NUMBER" varchar(255),
+  "CPT_OR_HCPCS_CODE" varchar(255),
+  "DESCRIPTION" varchar(255),
+  "MODIFIER" varchar(255),
+  "NDC" varchar(255),
+  "UOM" varchar(255),
+  "NRV" varchar(255),
+  "GROSS_CHARGE" FLOAT,
+  "CASH_PRICE" FLOAT,
+  "MIN_INSURANCE_PMT" FLOAT,
+  "MAX_INSURANCE_PMT" FLOAT
+)
